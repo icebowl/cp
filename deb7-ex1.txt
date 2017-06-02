@@ -1,0 +1,13 @@
+sudo -i
+
+add nameservers to 
+/etc/resolv.conf
+at tritech
+nameserver 10.40.0.14
+nameserver 10.40.0.25
+
+apt-get update && apt-get install debian-keyring debian-archive-keyring
+apt-get update
+apt-get upgrade
+
+turn ssh back on (service ssh start)
