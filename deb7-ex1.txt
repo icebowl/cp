@@ -1,4 +1,8 @@
 sudo -i
+edit 
+/root/.bashrc to ll works ls -l does the same but ll is qicker
+
+updatedb  everynow an then so locate works faster
 
 add nameservers to 
 /etc/resolv.conf
